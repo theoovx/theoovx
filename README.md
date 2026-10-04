@@ -83,7 +83,6 @@ Electrical systems are my foundation. Everything on the programming side is at a
 <div align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=theoovx&show_icons=true&hide_border=true&bg_color=0d0d0f&title_color=d8bf8f&text_color=cfc6b4&icon_color=d8bf8f&ring_color=d8bf8f&border_radius=18" alt="GitHub stats for theoovx">
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=theoovx&layout=compact&hide_border=true&bg_color=0d0d0f&title_color=d8bf8f&text_color=cfc6b4&border_radius=18" alt="Top languages of theoovx">
 
 <br><br>
 

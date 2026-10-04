@@ -18,8 +18,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .drift{animation:drift 16s ease-in-out infinite alternate}
 .drift2{animation:drift 21s ease-in-out infinite alternate-reverse}
 @keyframes drift{from{transform:translate(-40px,0)}to{transform:translate(60px,18px)}}
-.sweep{animation:sweep 9s linear infinite}
-@keyframes sweep{from{transform:translateX(-260px) skewX(-20deg)}to{transform:translateX(1160px) skewX(-20deg)}}
+.sweep{opacity:0;animation:sweep 9s linear infinite}
+@keyframes sweep{from{opacity:1;transform:translateX(-260px) skewX(-20deg)}to{opacity:1;transform:translateX(1160px) skewX(-20deg)}}
 .orbit{animation:orbit 7s linear infinite}
 @keyframes orbit{to{stroke-dashoffset:-1000}}
 .flow{animation:flow 2.4s linear infinite}
@@ -34,7 +34,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 @keyframes slide{from{opacity:0;transform:translateX(-26px)}to{opacity:1;transform:none}}
 .fade{animation:fade .9s ease both}
 @keyframes fade{from{opacity:0}to{opacity:1}}
-.p{animation:particle 11s linear infinite}
+.p{opacity:0;animation:particle 11s linear infinite}
 @keyframes particle{0%{transform:translateY(0);opacity:0}12%{opacity:.9}100%{transform:translateY(-120px);opacity:0}}
 .spin{transform-box:fill-box;transform-origin:center;animation:spin 20s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
