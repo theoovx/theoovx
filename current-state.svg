@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 370" width="900" height="370" role="img" aria-label="Current state: Learning 6 of 10, Building 4 of 10, Exploring 5 of 10, Consistency 3 of 10. Visual only.">
+<title>Current state: Learning 6 of 10, Building 4 of 10, Exploring 5 of 10, Consistency 3 of 10. Visual only.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111113"/><stop offset="1" stop-color="#08080a"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f6ecd0"/><stop offset=".5" stop-color="#d9c08e"/><stop offset="1" stop-color="#b39358"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".10"/><stop offset="1" stop-color="#fff" stop-opacity=".03"/></linearGradient>
+<linearGradient id="sweepg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9d6a6" stop-opacity=".16"/><stop offset="1" stop-color="#e9d6a6" stop-opacity="0"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#d9c08e" stop-opacity=".28"/><stop offset="1" stop-color="#d9c08e" stop-opacity="0"/></radialGradient>
+<radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".55"/></radialGradient>
+<clipPath id="clip"><rect width="900" height="370" rx="24"/></clipPath>
+</defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Inter,'Segoe UI',Roboto,Arial,sans-serif}
+.float{animation:float 7s ease-in-out infinite}
+.float2{animation:float 9s ease-in-out infinite reverse}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.drift{animation:drift 16s ease-in-out infinite alternate}
+.drift2{animation:drift 21s ease-in-out infinite alternate-reverse}
+@keyframes drift{from{transform:translate(-40px,0)}to{transform:translate(60px,18px)}}
+.sweep{animation:sweep 9s linear infinite}
+@keyframes sweep{from{transform:translateX(-260px) skewX(-20deg)}to{transform:translateX(1160px) skewX(-20deg)}}
+.orbit{animation:orbit 7s linear infinite}
+@keyframes orbit{to{stroke-dashoffset:-1000}}
+.flow{animation:flow 2.4s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.bar{transform-box:fill-box;transform-origin:left center;animation:loopbar 8s cubic-bezier(.3,.7,.2,1) infinite}
+@keyframes loopbar{0%{transform:scaleX(0);opacity:0}6%{opacity:1}38%,88%{transform:scaleX(1);opacity:1}96%,100%{transform:scaleX(1);opacity:0}}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+.rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.slide{animation:slide .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes slide{from{opacity:0;transform:translateX(-26px)}to{opacity:1;transform:none}}
+.fade{animation:fade .9s ease both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.p{animation:particle 11s linear infinite}
+@keyframes particle{0%{transform:translateY(0);opacity:0}12%{opacity:.9}100%{transform:translateY(-120px);opacity:0}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 20s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#clip)">
+<rect width="900" height="370" fill="url(#bg)"/>
+<ellipse class="drift" cx="220" cy="74" rx="260" ry="140" fill="url(#glow)"/>
+<ellipse class="drift2" cx="700" cy="314" rx="300" ry="150" fill="url(#glow)" opacity=".7"/>
+<circle class="p" cx="252" cy="260" r="2" fill="#d8bf8f" style="animation-delay:-1.4s;animation-duration:12.9s"/><circle class="p" cx="107" cy="201" r="1.2" fill="#d8bf8f" style="animation-delay:-8.9s;animation-duration:11.5s"/><circle class="p" cx="430" cy="330" r="1" fill="#d8bf8f" style="animation-delay:-5.1s;animation-duration:11.2s"/><circle class="p" cx="526" cy="312" r="1.2" fill="#d8bf8f" style="animation-delay:-9.9s;animation-duration:10.8s"/><circle class="p" cx="516" cy="225" r="1" fill="#d8bf8f" style="animation-delay:-7.7s;animation-duration:11.6s"/><circle class="p" cx="505" cy="263" r="1" fill="#d8bf8f" style="animation-delay:-7.3s;animation-duration:8.7s"/><circle class="p" cx="853" cy="182" r="2" fill="#d8bf8f" style="animation-delay:-6.8s;animation-duration:10.6s"/><circle class="p" cx="696" cy="180" r="1.6" fill="#d8bf8f" style="animation-delay:-2.6s;animation-duration:8.6s"/><circle class="p" cx="685" cy="298" r="1.2" fill="#d8bf8f" style="animation-delay:-6.4s;animation-duration:9.0s"/><circle class="p" cx="85" cy="304" r="1" fill="#d8bf8f" style="animation-delay:-5.4s;animation-duration:9.4s"/><circle class="p" cx="612" cy="282" r="2" fill="#d8bf8f" style="animation-delay:-3.1s;animation-duration:10.5s"/><circle class="p" cx="456" cy="200" r="1.2" fill="#d8bf8f" style="animation-delay:-8.4s;animation-duration:8.7s"/>
+<circle cx="46" cy="50" r="3" fill="#d8bf8f" class="pulse"/><text x="60" y="54" font-size="12" fill="#d8bf8f" font-weight="600" text-anchor="start" letter-spacing="6" opacity="1" >CURRENT STATE</text><text x="64" y="116" font-size="13" fill="#f3ead7" font-weight="600" text-anchor="start" letter-spacing="4" opacity="1" >LEARNING</text><rect x="250" y="104" width="500" height="12" rx="6" fill="#fff" fill-opacity=".08"/><rect class="bar" style="animation-delay:0.00s" x="250" y="104" width="300" height="12" rx="6" fill="url(#gold)"/><rect x="299" y="104" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="349" y="104" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="399" y="104" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="449" y="104" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="499" y="104" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="549" y="104" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="599" y="104" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="649" y="104" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="699" y="104" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><text x="840" y="116" font-size="14" fill="#d8bf8f" font-weight="600" text-anchor="end" letter-spacing="2" opacity="1" >06 / 10</text><text x="64" y="180" font-size="13" fill="#f3ead7" font-weight="600" text-anchor="start" letter-spacing="4" opacity="1" >BUILDING</text><rect x="250" y="168" width="500" height="12" rx="6" fill="#fff" fill-opacity=".08"/><rect class="bar" style="animation-delay:0.35s" x="250" y="168" width="200" height="12" rx="6" fill="url(#gold)"/><rect x="299" y="168" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="349" y="168" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="399" y="168" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="449" y="168" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="499" y="168" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="549" y="168" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="599" y="168" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="649" y="168" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="699" y="168" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><text x="840" y="180" font-size="14" fill="#d8bf8f" font-weight="600" text-anchor="end" letter-spacing="2" opacity="1" >04 / 10</text><text x="64" y="244" font-size="13" fill="#f3ead7" font-weight="600" text-anchor="start" letter-spacing="4" opacity="1" >EXPLORING</text><rect x="250" y="232" width="500" height="12" rx="6" fill="#fff" fill-opacity=".08"/><rect class="bar" style="animation-delay:0.70s" x="250" y="232" width="250" height="12" rx="6" fill="url(#gold)"/><rect x="299" y="232" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="349" y="232" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="399" y="232" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="449" y="232" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="499" y="232" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="549" y="232" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="599" y="232" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="649" y="232" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="699" y="232" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><text x="840" y="244" font-size="14" fill="#d8bf8f" font-weight="600" text-anchor="end" letter-spacing="2" opacity="1" >05 / 10</text><text x="64" y="308" font-size="13" fill="#f3ead7" font-weight="600" text-anchor="start" letter-spacing="4" opacity="1" >CONSISTENCY</text><rect x="250" y="296" width="500" height="12" rx="6" fill="#fff" fill-opacity=".08"/><rect class="bar" style="animation-delay:1.05s" x="250" y="296" width="150" height="12" rx="6" fill="url(#gold)"/><rect x="299" y="296" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="349" y="296" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="399" y="296" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="449" y="296" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="499" y="296" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="549" y="296" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="599" y="296" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="649" y="296" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><rect x="699" y="296" width="2" height="12" fill="#0b0b0d" fill-opacity=".7"/><text x="840" y="308" font-size="14" fill="#d8bf8f" font-weight="600" text-anchor="end" letter-spacing="2" opacity="1" >03 / 10</text><text x="450" y="340" font-size="12" fill="#9d968a" font-weight="400" text-anchor="middle" letter-spacing="1.5" opacity="1" >Visual only. These are not real statistics.</text>
+<rect class="sweep" x="0" y="0" width="150" height="370" fill="url(#sweepg)"/>
+<rect width="900" height="370" fill="url(#vig)"/>
+</g>
+<rect x="1" y="1" width="898" height="368" rx="23" fill="none" stroke="#fff" stroke-opacity=".08"/>
+<rect class="orbit" x="1" y="1" width="898" height="368" rx="23" fill="none" stroke="#d8bf8f" stroke-width="1.6" stroke-linecap="round" pathLength="1000" stroke-dasharray="130 870"/>
+</svg>

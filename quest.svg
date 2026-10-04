@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 490" width="900" height="490" role="img" aria-label="Current quest: Learn JavaScript, Improve Web Development, Build IoT Projects, Learn Git and GitHub, exploring ESP32 and Embedded Systems">
+<title>Current quest: Learn JavaScript, Improve Web Development, Build IoT Projects, Learn Git and GitHub, exploring ESP32 and Embedded Systems</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111113"/><stop offset="1" stop-color="#08080a"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f6ecd0"/><stop offset=".5" stop-color="#d9c08e"/><stop offset="1" stop-color="#b39358"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".10"/><stop offset="1" stop-color="#fff" stop-opacity=".03"/></linearGradient>
+<linearGradient id="sweepg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9d6a6" stop-opacity=".16"/><stop offset="1" stop-color="#e9d6a6" stop-opacity="0"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#d9c08e" stop-opacity=".28"/><stop offset="1" stop-color="#d9c08e" stop-opacity="0"/></radialGradient>
+<radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".55"/></radialGradient>
+<clipPath id="clip"><rect width="900" height="490" rx="24"/></clipPath>
+</defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Inter,'Segoe UI',Roboto,Arial,sans-serif}
+.float{animation:float 7s ease-in-out infinite}
+.float2{animation:float 9s ease-in-out infinite reverse}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.drift{animation:drift 16s ease-in-out infinite alternate}
+.drift2{animation:drift 21s ease-in-out infinite alternate-reverse}
+@keyframes drift{from{transform:translate(-40px,0)}to{transform:translate(60px,18px)}}
+.sweep{animation:sweep 9s linear infinite}
+@keyframes sweep{from{transform:translateX(-260px) skewX(-20deg)}to{transform:translateX(1160px) skewX(-20deg)}}
+.orbit{animation:orbit 7s linear infinite}
+@keyframes orbit{to{stroke-dashoffset:-1000}}
+.flow{animation:flow 2.4s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.bar{transform-box:fill-box;transform-origin:left center;animation:loopbar 8s cubic-bezier(.3,.7,.2,1) infinite}
+@keyframes loopbar{0%{transform:scaleX(0);opacity:0}6%{opacity:1}38%,88%{transform:scaleX(1);opacity:1}96%,100%{transform:scaleX(1);opacity:0}}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+.rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.slide{animation:slide .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes slide{from{opacity:0;transform:translateX(-26px)}to{opacity:1;transform:none}}
+.fade{animation:fade .9s ease both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.p{animation:particle 11s linear infinite}
+@keyframes particle{0%{transform:translateY(0);opacity:0}12%{opacity:.9}100%{transform:translateY(-120px);opacity:0}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 20s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#clip)">
+<rect width="900" height="490" fill="url(#bg)"/>
+<ellipse class="drift" cx="220" cy="98" rx="260" ry="140" fill="url(#glow)"/>
+<ellipse class="drift2" cx="700" cy="416" rx="300" ry="150" fill="url(#glow)" opacity=".7"/>
+<circle class="p" cx="261" cy="375" r="1" fill="#d8bf8f" style="animation-delay:-7.9s;animation-duration:11.4s"/><circle class="p" cx="112" cy="254" r="1" fill="#d8bf8f" style="animation-delay:-4.4s;animation-duration:14.4s"/><circle class="p" cx="839" cy="250" r="1.2" fill="#d8bf8f" style="animation-delay:-5.7s;animation-duration:10.5s"/><circle class="p" cx="818" cy="308" r="1" fill="#d8bf8f" style="animation-delay:-2.9s;animation-duration:14.6s"/><circle class="p" cx="46" cy="353" r="1.6" fill="#d8bf8f" style="animation-delay:-2.1s;animation-duration:10.2s"/><circle class="p" cx="662" cy="410" r="1" fill="#d8bf8f" style="animation-delay:-9.3s;animation-duration:10.4s"/><circle class="p" cx="417" cy="479" r="1.2" fill="#d8bf8f" style="animation-delay:-2.0s;animation-duration:11.3s"/><circle class="p" cx="111" cy="373" r="1" fill="#d8bf8f" style="animation-delay:-10.0s;animation-duration:12.0s"/><circle class="p" cx="339" cy="480" r="1.2" fill="#d8bf8f" style="animation-delay:-4.6s;animation-duration:12.2s"/><circle class="p" cx="461" cy="451" r="1.2" fill="#d8bf8f" style="animation-delay:-2.6s;animation-duration:9.8s"/><circle class="p" cx="836" cy="242" r="1" fill="#d8bf8f" style="animation-delay:-0.5s;animation-duration:12.4s"/><circle class="p" cx="307" cy="461" r="1.6" fill="#d8bf8f" style="animation-delay:-1.6s;animation-duration:12.7s"/><circle class="p" cx="88" cy="431" r="1.2" fill="#d8bf8f" style="animation-delay:-7.0s;animation-duration:11.1s"/><circle class="p" cx="208" cy="402" r="2" fill="#d8bf8f" style="animation-delay:-8.2s;animation-duration:10.2s"/>
+<circle cx="46" cy="50" r="3" fill="#d8bf8f" class="pulse"/><text x="60" y="54" font-size="12" fill="#d8bf8f" font-weight="600" text-anchor="start" letter-spacing="6" opacity="1" >CURRENT QUEST</text><g transform="translate(40,84)"><g class="slide" style="animation-delay:0.00s"><rect x="0" y="0" width="820" height="62" rx="18" fill="url(#glass)" stroke="#fff" stroke-opacity=".14"/><path d="M18 .5H802" stroke="#fff" stroke-opacity=".22" stroke-linecap="round"/><rect x="22" y="17" width="108" height="28" rx="14" fill="url(#gold)"/><text x="76" y="36" font-size="11" fill="#14110b" font-weight="700" text-anchor="middle" letter-spacing="3" opacity="1" >ACTIVE</text><circle class="pulse" cx="790" cy="31" r="4.5" fill="#d8bf8f"/><text x="156" y="38" font-size="19" fill="#f3ead7" font-weight="500" text-anchor="start" letter-spacing="0.3" opacity="1" >Learn JavaScript</text></g></g><g transform="translate(40,160)"><g class="slide" style="animation-delay:0.14s"><rect x="0" y="0" width="820" height="62" rx="18" fill="url(#glass)" stroke="#fff" stroke-opacity=".14"/><path d="M18 .5H802" stroke="#fff" stroke-opacity=".22" stroke-linecap="round"/><rect x="22" y="17" width="108" height="28" rx="14" fill="url(#gold)"/><text x="76" y="36" font-size="11" fill="#14110b" font-weight="700" text-anchor="middle" letter-spacing="3" opacity="1" >ACTIVE</text><circle class="pulse" cx="790" cy="31" r="4.5" fill="#d8bf8f"/><text x="156" y="38" font-size="19" fill="#f3ead7" font-weight="500" text-anchor="start" letter-spacing="0.3" opacity="1" >Improve Web Development</text></g></g><g transform="translate(40,236)"><g class="slide" style="animation-delay:0.28s"><rect x="0" y="0" width="820" height="62" rx="18" fill="url(#glass)" stroke="#fff" stroke-opacity=".14"/><path d="M18 .5H802" stroke="#fff" stroke-opacity=".22" stroke-linecap="round"/><rect x="22" y="17" width="108" height="28" rx="14" fill="url(#gold)"/><text x="76" y="36" font-size="11" fill="#14110b" font-weight="700" text-anchor="middle" letter-spacing="3" opacity="1" >ACTIVE</text><circle class="pulse" cx="790" cy="31" r="4.5" fill="#d8bf8f"/><text x="156" y="38" font-size="19" fill="#f3ead7" font-weight="500" text-anchor="start" letter-spacing="0.3" opacity="1" >Build IoT Projects</text></g></g><g transform="translate(40,312)"><g class="slide" style="animation-delay:0.42s"><rect x="0" y="0" width="820" height="62" rx="18" fill="url(#glass)" stroke="#fff" stroke-opacity=".14"/><path d="M18 .5H802" stroke="#fff" stroke-opacity=".22" stroke-linecap="round"/><rect x="22" y="17" width="108" height="28" rx="14" fill="url(#gold)"/><text x="76" y="36" font-size="11" fill="#14110b" font-weight="700" text-anchor="middle" letter-spacing="3" opacity="1" >ACTIVE</text><circle class="pulse" cx="790" cy="31" r="4.5" fill="#d8bf8f"/><text x="156" y="38" font-size="19" fill="#f3ead7" font-weight="500" text-anchor="start" letter-spacing="0.3" opacity="1" >Learn Git &amp; GitHub</text></g></g><g transform="translate(40,388)"><g class="slide" style="animation-delay:0.56s"><rect x="0" y="0" width="820" height="62" rx="18" fill="url(#glass)" stroke="#fff" stroke-opacity=".14"/><path d="M18 .5H802" stroke="#fff" stroke-opacity=".22" stroke-linecap="round"/><rect x="22" y="17" width="108" height="28" rx="14" fill="none" stroke="#d8bf8f" stroke-opacity=".8"/><text x="76" y="36" font-size="11" fill="#d8bf8f" font-weight="700" text-anchor="middle" letter-spacing="2.5" opacity="1" >EXPLORING</text><circle class="pulse" cx="790" cy="31" r="4.5" fill="none" stroke="#d8bf8f"/><text x="156" y="38" font-size="19" fill="#f3ead7" font-weight="500" text-anchor="start" letter-spacing="0.3" opacity="1" >ESP32 / Embedded Systems</text></g></g>
+<rect class="sweep" x="0" y="0" width="150" height="490" fill="url(#sweepg)"/>
+<rect width="900" height="490" fill="url(#vig)"/>
+</g>
+<rect x="1" y="1" width="898" height="488" rx="23" fill="none" stroke="#fff" stroke-opacity=".08"/>
+<rect class="orbit" x="1" y="1" width="898" height="488" rx="23" fill="none" stroke="#d8bf8f" stroke-width="1.6" stroke-linecap="round" pathLength="1000" stroke-dasharray="130 870"/>
+</svg>
