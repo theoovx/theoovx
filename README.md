@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Agus Taufik Rahman (theoovx) - Electrical Installation Engineering to Technology Exploration" width="100%">
+<img src="header.svg" alt="Agus Taufik Rahman (theoovx) - Electrical Installation Engineering to Technology Exploration" width="100%">
 
 <br><br>
 
-<img src="assets/player-card.svg" alt="Player card: THEO / AGUS, Level 01, class Electrical to Technology, status Learning, Bandung, Indonesia" width="100%">
+<img src="player-card.svg" alt="Player card: THEO / AGUS, Level 01, class Electrical to Technology, status Learning, Bandung, Indonesia" width="100%">
 
 </div>
 
@@ -18,7 +18,7 @@ I am a fresh graduate and I am **not** a software engineer. I am simply expandin
 
 <div align="center">
 
-<img src="assets/journey.svg" alt="Journey: Electrical, Vocational School, Field Experience, Curious about Technology, Programming, Web Development, IoT and ESP32, Still Learning" width="100%">
+<img src="journey.svg" alt="Journey: Electrical, Vocational School, Field Experience, Curious about Technology, Programming, Web Development, IoT and ESP32, Still Learning" width="100%">
 
 </div>
 
@@ -28,7 +28,7 @@ I am a fresh graduate and I am **not** a software engineer. I am simply expandin
 
 <div align="center">
 
-<img src="assets/quest.svg" alt="Current quest: Learn JavaScript, Improve Web Development, Build IoT Projects, Learn Git and GitHub, exploring ESP32 and Embedded Systems" width="100%">
+<img src="quest.svg" alt="Current quest: Learn JavaScript, Improve Web Development, Build IoT Projects, Learn Git and GitHub, exploring ESP32 and Embedded Systems" width="100%">
 
 </div>
 
@@ -40,7 +40,7 @@ Electrical systems are my foundation. Everything on the programming side is at a
 
 <div align="center">
 
-<img src="assets/skill-tree.svg" alt="Skill tree: Electrical Systems 5 of 5, HTML and CSS 2 of 5, JavaScript 1 of 5, Python 1 of 5, Git and GitHub 2 of 5, IoT and ESP32 1 of 5" width="100%">
+<img src="skill-tree.svg" alt="Skill tree: Electrical Systems 5 of 5, HTML and CSS 2 of 5, JavaScript 1 of 5, Python 1 of 5, Git and GitHub 2 of 5, IoT and ESP32 1 of 5" width="100%">
 
 </div>
 
@@ -50,7 +50,7 @@ Electrical systems are my foundation. Everything on the programming side is at a
 
 <div align="center">
 
-<img src="assets/projects.svg" alt="Project room: Link Bio, Theo Daily, Smart Building and IoT" width="100%">
+<img src="projects.svg" alt="Project room: Link Bio, Theo Daily, Smart Building and IoT" width="100%">
 
 </div>
 
@@ -62,7 +62,7 @@ Electrical systems are my foundation. Everything on the programming side is at a
 
 <div align="center">
 
-<img src="assets/toolbox.svg" alt="Toolbox: HTML, CSS, JavaScript, Python, Git, GitHub, ESP32, IoT, VS Code" width="100%">
+<img src="toolbox.svg" alt="Toolbox: HTML, CSS, JavaScript, Python, Git, GitHub, ESP32, IoT, VS Code" width="100%">
 
 </div>
 
@@ -72,7 +72,7 @@ Electrical systems are my foundation. Everything on the programming side is at a
 
 <div align="center">
 
-<img src="assets/current-state.svg" alt="Current state: Learning 6 of 10, Building 4 of 10, Exploring 5 of 10, Consistency 3 of 10. Visual only." width="100%">
+<img src="current-state.svg" alt="Current state: Learning 6 of 10, Building 4 of 10, Exploring 5 of 10, Consistency 3 of 10. Visual only." width="100%">
 
 </div>
 
@@ -87,6 +87,6 @@ Electrical systems are my foundation. Everything on the programming side is at a
 
 <br><br>
 
-<img src="assets/footer.svg" alt="Electrical, Curious, Learning, Building. Still learning. Still building." width="100%">
+<img src="footer.svg" alt="Electrical, Curious, Learning, Building. Still learning. Still building." width="100%">
 
 </div>
